@@ -94,4 +94,8 @@ if st.button("Search", type="primary"):
                             st.markdown(f"**Date**: {art['date']}")
                             st.image(art["image_url"], use_container_width=True)
             else:
-                st.info(f"No artworks found for
+                st.info(f"No artworks found for '{keyword}'. Try other keywords like 'flower' or 'Chinese figure with bird'!")
+
+st.markdown("---")
+st.caption("Data source: Metropolitan Museum of Art Open API")
+
